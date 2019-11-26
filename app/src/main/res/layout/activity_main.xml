@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:hint="Check In Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="20sp"
+        android:id="@+id/etcheckin"/>
+
+
+    <TextView
+        android:hint="Check Out Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:id="@+id/etcheckout"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:id="@+id/spinroom"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:visibility="invisible"
+        android:textSize="20sp"
+        android:id="@+id/tvprice"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp">
+
+        <EditText
+            android:id="@+id/etadult"
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Adult"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/etchild"
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Child"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"/>
+
+        <EditText
+            android:id="@+id/etroom"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Room"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:hint="Calculate"
+        android:id="@+id/btncal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvresult"
+        android:layout_margin="10dp"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:visibility="invisible"
+        android:textSize="20sp"
+        android:id="@+id/tvfirst"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:visibility="invisible"
+        android:textSize="20sp"
+        android:id="@+id/tvsecond"/>
+
+
+</LinearLayout>
