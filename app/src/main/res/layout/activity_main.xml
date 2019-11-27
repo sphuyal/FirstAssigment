@@ -14,8 +14,8 @@
         android:hint="Check In Date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:textSize="20sp"
+        android:layout_margin="28dp"
+        android:textSize="28sp"
         android:id="@+id/etcheckin"/>
 
 
@@ -23,16 +23,16 @@
         android:hint="Check Out Date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:textSize="20sp"
+        android:layout_margin="28dp"
+        android:textSize="28sp"
         android:id="@+id/etcheckout"/>
 
     <Spinner
+        android:id="@+id/spinroom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:textSize="20dp"
-        android:id="@+id/spinroom"/>
+        android:textSize="20dp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -56,7 +56,8 @@
             android:layout_height="wrap_content"
             android:inputType="number"
             android:hint="Adult"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:layout_marginLeft="40dp"/>
 
         <EditText
             android:id="@+id/etchild"
@@ -65,7 +66,7 @@
             android:inputType="number"
             android:hint="Child"
             android:textSize="20dp"
-            android:layout_marginLeft="50dp"/>
+            android:layout_marginLeft="20dp"/>
 
         <EditText
             android:id="@+id/etroom"
@@ -74,7 +75,7 @@
             android:inputType="number"
             android:hint="Room"
             android:textSize="20dp"
-            android:layout_marginLeft="50dp"/>
+            android:layout_marginLeft="20dp"/>
 
     </LinearLayout>
 
@@ -90,22 +91,6 @@
         android:id="@+id/tvresult"
         android:layout_margin="10dp"
         android:textSize="20sp"/>
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Price"
-        android:visibility="invisible"
-        android:textSize="20sp"
-        android:id="@+id/tvfirst"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Price"
-        android:visibility="invisible"
-        android:textSize="20sp"
-        android:id="@+id/tvsecond"/>
 
 
 </LinearLayout>
